@@ -1,0 +1,41 @@
+1) make a account in git hub.
+
+
+2) Create a new repository on GitHub. To avoid errors, do not initialize the new repository with README, license, or gitignore files.
+ You can add these files after your project has been pushed to GitHub
+
+download git from ("https://git-scm.com/downloads")
+
+3) git bash in the folder where you want to push .
+
+
+4)git init.
+ 
+
+5)git status.
+
+
+6) git add -A.
+
+7)if it ask  "who are you" ?
+
+git config --global user.email "email@yahoo.com"
+
+   git config --global user.name "your name"
+
+
+8)git commit -m "name of your commit ".
+
+
+9)git remote add origin | paste repo link from "clone or download "
+
+10) git push -u origin master or git push origin master 
+
+11)
+if its error (" ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to") 
+then write 
+("git pull --rebase origin master,
+git push origin master")
+
+done!
