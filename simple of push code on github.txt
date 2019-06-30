@@ -1,33 +1,35 @@
 1) make a account in git hub.
 
 
-2) Create a new repository on GitHub. To avoid errors, do not initialize the new repository with README, license, or gitignore files.
+2) Click on "+" sign on the top right to Create a new repository on GitHub . To avoid errors, do not initialize the new repository with README, license, or gitignore files.
  You can add these files after your project has been pushed to GitHub
 
 download git from ("https://git-scm.com/downloads")
 
 3) git bash in the folder where you want to push .
+ To git bash open the folder where your files exist, right click anywhere and select git bash here.
+ 
+And write these command 
 
-
-4)git init.
+4)git init
  
 
-5)git status.
+5)git status 
 
 
-6) git add -A.
+6) git add -A
 
 7)if it ask  "who are you" ?
 
-git config --global user.email "email@yahoo.com"
+git config --global user.email "your email address" 
 
-   git config --global user.name "your name"
-
-
-8)git commit -m "name of your commit ".
+   git config --global user.name "your name" 
 
 
-9)git remote add origin | paste repo link from "clone or download "
+8)git commit -m "name of your commit "
+
+
+9)git remote add origin  "paste repository link from your github repository" 
 
 10) git push -u origin master or git push origin master 
 
